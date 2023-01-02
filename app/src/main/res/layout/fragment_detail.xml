@@ -5,18 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainFragment">
+    tools:context=".DetailFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Je suis sur Detail Fragment"
         android:textSize="40sp"
-        android:text="Je suis sur Main Fragment" />
+        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnVoirDetail"
-        android:text="Voir hjk"/>
+        android:id="@+id/btnAfficherDetailFragment"
+        android:text="Afficher"/>
 
 </LinearLayout>
